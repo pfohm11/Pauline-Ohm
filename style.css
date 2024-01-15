@@ -175,7 +175,7 @@ h3{
 
 form{
 	width: 90%;
-	max-width: 700px;
+	max-width: 350px;
 	margin:  2em auto;
 	padding:  0.75em;
 	border: 2px solid #777;
@@ -185,8 +185,6 @@ form{
 input, label, textarea{
 	display: block;
 	width: calc(100% - 2em);
-	min-width: 100%;
-	min-height: 5rem;
 }
 
 input, textarea, select{
@@ -219,7 +217,7 @@ input:error, select:error, textarea:error{
 }
 
 fieldset{
-	margin: 1.5rem auto;
+	margin: 0.5em auto;
 	padding-bottom: 0.5em;
 	width: 94%;
 	border: 1px solid #222;
@@ -235,7 +233,6 @@ legend{
 fieldset label{
 	display: inline;
 	width: 60%;
-	padding-right: 10px;
 }
 
 fieldset input{
@@ -247,7 +244,7 @@ select{
 	display: block;
 	width: 95%;
 	margin: 0.25em auto 0.5em auto;
-	padding: 2px 5px;
+	padding: 0.5em;
 	font-size: 1em;
 }
 
@@ -288,4 +285,5 @@ footer{
 	font-family: sans-serif;
 	text-align: center;
 }
+
 
